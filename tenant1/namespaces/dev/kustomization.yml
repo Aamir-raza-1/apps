@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:
+  env: dev
+resources:
+- https://github.com/Aamir-raza-1/all.git/namespace/
+patches:
+- path: patches/ns-patch.yml
+  target:
+    kind: namespace
