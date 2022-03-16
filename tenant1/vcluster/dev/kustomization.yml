@@ -9,7 +9,7 @@ commonLabels:
 helmCharts:
 - name: vcluster
   releaseName: vcluster
-  namespace: tenant-1 // Values needs to be replaced
+  namespace: tenant1 # Values needs to be replaced
   valuesFile: dev-values.yml
 #   # Commented in case have local helm chart.
 #   # All available options 
