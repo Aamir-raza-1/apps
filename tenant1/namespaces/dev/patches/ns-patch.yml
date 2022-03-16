@@ -1,4 +1,5 @@
 - op: replace
   path: /metadata/name
-  value: tenant1
+  value: host-ns-tenant1
+  # name: Dev-Cision-DevOps
     

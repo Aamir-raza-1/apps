@@ -1,0 +1,5 @@
+apiVersion: cluster.loft.sh/v1
+kind: VirtualCluster
+metadata:
+  name: vcluster-name             
+  namespace: tenant

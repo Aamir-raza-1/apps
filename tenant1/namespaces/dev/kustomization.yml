@@ -4,7 +4,17 @@ commonLabels:
   env: dev
 resources:
 - https://github.com/Aamir-raza-1/all.git/namespace/
-patches:
-- path: patches/ns-patch.yml
-  target:
-    kind: namespace
+# patches:
+# - path: patches/ns-patch.yml
+#   target:
+#     kind: namespace
+#     name: Dev-Cision-DevOps
+#     version: v1
+
+patchesJson6902:
+- target:
+    # group: batch
+    # version: v1
+    kind: Namespace
+    name: Dev-Cision-DevOps
+  path: patches/ns-patch.yml
